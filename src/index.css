@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Asap:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Asap:wght@700&display=swap');
 
 *{
   margin: 0 auto;
@@ -61,12 +61,17 @@ nav ul li a.active {
   position: relative;
   height: auto;
   
-}
+} */
 
-.card {
+/* .card {
   background-color: rgba(255, 255, 255, 0);
   border: none;
 }
+
+p {
+  float: left;
+  font-size: 4em;
+} */
 
 /* nav ul li a:hover {
   color: whitesmoke;

@@ -1,10 +1,13 @@
+import React from 'react'
+import Navbar from './components/Navbar'
 
-import './App.css';
 
 function App() {
   return (
        <div> 
-          <nav>
+         <Navbar/>
+         </div>
+          /* <nav>
             <div class="logo">
                 <h4>Javante Nelson</h4>
            </div>
@@ -15,16 +18,19 @@ function App() {
              <li><a href="#">About Me</a></li>
            </ul>
          </nav>
-
+<navbar/>
          <div className="container">
              <div className="card">
                <div className="lead">
-                 <p>coder</p>
+                 <p>I'm coder and a cat fanatic.</p>
                </div>    
              </div>
-         </div>
+         </div> */
+      
 
-</div>
+        
+
+
     
   );
 }

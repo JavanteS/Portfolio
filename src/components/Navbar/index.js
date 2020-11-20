@@ -19,6 +19,14 @@ const Navbar = () => {
                   <NavItem>
                       <NavLinks to="about">About Me</NavLinks>
                   </NavItem>
+
+                  <NavItem>
+                      <NavLinks to="contact">Contact</NavLinks>
+                  </NavItem>
+
+                  <NavItem>
+                      <NavLinks to="portfolio">Portfolio</NavLinks>
+                  </NavItem>
               </NavMenu>
           </Nav>  
         </>

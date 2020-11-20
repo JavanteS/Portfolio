@@ -6,4 +6,9 @@
   padding: 0 auto;
 }
 
+body {
+  background-image: url('pexels-ak.jpg');
+  background-size: cover;
+}
+
 

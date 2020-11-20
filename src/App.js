@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-
-
+import {BrowserRouter as Router} from 'react-router-dom'
+import './index.css'
 function App() {
   return (
-       <div> 
+       <Router> 
          <Navbar/>
-         </div>
+         </Router>
           /* <nav>
             <div class="logo">
                 <h4>Javante Nelson</h4>

@@ -33,7 +33,7 @@ z-index: 1;
 
 `
 export const NavLogo = styled(LinkR)`
-color: black;
+color: aliceblue;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1rem;
@@ -64,7 +64,7 @@ display: flex;
 align-items: center;
 text-align: center;
 list-style: none;
-margin-right: -5px;
+margin-right: 50px;
 
 @media screen and (max-width: 760px){
     display: none;
@@ -74,7 +74,7 @@ export const NavItem = styled.li`
 height: 80px;
 `
 export const NavLinks = styled(LinkS)`
-color: black;
+color: aliceblue;
 display: flex;
 align-items: center;
 text-decoration: none;

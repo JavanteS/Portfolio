@@ -1,32 +1,24 @@
-import React from 'react'
+
+import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 
 
 
-
-const Navbar = () => {
+function Navbar = () => {
     return (
         <>
-          <Nav>
-              <NavbarContainer>
-                  <NavLogo to="/">Javante Nelson</NavLogo>
-              </NavbarContainer>
-              <MobileIcon>
-                  <FaBars/>
-              </MobileIcon>
-              <NavMenu>
-                  <NavItem>
-                      <NavLinks to="about">About Me</NavLinks>
-                  </NavItem>
+          <Nav className='navbar'>
+             <Link to="">
+               testingtesting
+             </Link>
 
-                  <NavItem>
-                      <NavLinks to="contact">Contact</NavLinks>
-                  </NavItem>
+             <link >
+             </link>
 
-                  <NavItem>
-                      <NavLinks to="portfolio">Portfolio</NavLinks>
-                  </NavItem>
-              </NavMenu>
+             <link>
+             </link>
           </Nav>  
         </>
     )

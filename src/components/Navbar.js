@@ -6,20 +6,26 @@ import './Navbar.css'
 
 
 
-function Navbar = () => {
+function Navbar(){
+  const [click, setClick] = useState(false)
+
+  const handleClick = ()=>setClick(!click)
     return (
         <>
-          <Nav className='navbar'>
-             <Link to="">
-               testingtesting
+          <nav className='navbar'>
+             <Link to="/">
+               Javante S
              </Link>
 
+              <div className='menu-icon' onClick={handleClick}>
+                <i className={click ? 'fas fa-times' : 'fas fa-bar'}/>
+              </div>
              <link >
              </link>
 
              <link>
              </link>
-          </Nav>  
+          </nav>  
         </>
     )
 }

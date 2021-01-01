@@ -18,13 +18,16 @@ function Navbar(){
              </Link>
 
               <div className='menu-icon' onClick={handleClick}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bar'}/>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
               </div>
-             <link >
-             </link>
+             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                          <Link to='/' className='nav-links'>
+                           Home
+                          </Link>
+                    </li>
 
-             <link>
-             </link>
+             </ul>
           </nav>  
         </>
     )
